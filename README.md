@@ -8,7 +8,7 @@ A starter template for Nuxt 3 with usefull modules and plugins.
 - [x] ✨ [Headless UI](https://headlessui.dev/)
 - [x] 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/)
 - [x] 📦 [Vue Composition Collection (Vueuse)](https://vueuse.org/)
-- [ ] 📚 [Content Management System (Nuxt Content)](https://content.nuxtjs.org/) [SSR]
+- [x] 📚 [Content Management System (Nuxt Content)](https://content.nuxtjs.org/) [SSR]
 - [ ] 🌙 Switch Theme (light, dark, system, realtime)
 - [ ] Eslint & Prettier
 - [ ] Husky & Commitlint
