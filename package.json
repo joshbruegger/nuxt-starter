@@ -13,6 +13,7 @@
     "nuxt-windicss": "^2.5.5"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.4.4",
     "vite": "^3.2.4",
     "vue": "^3.2.45"
   }
