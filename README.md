@@ -1,20 +1,25 @@
+
 # Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A starter template for Nuxt 3 with usefull modules and plugins.
+
+## Features
+- [x] 💨 [Tailwind CSS v3](https://tailwindcss.com/) with [Windicss](https://windicss.org/)
+- [x] ✨ [Headless UI](https://headlessui.dev/)
+- [x] 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/)
+- [x] 📦 [Vue Composition Collection (Vueuse)](https://vueuse.org/)
+- [ ] 📚 [Content Management System (Nuxt Content)](https://content.nuxtjs.org/) [SSR]
+- [ ] 🌙 Switch Theme (light, dark, system, realtime)
+- [ ] Eslint & Prettier
+- [ ] Husky & Commitlint
+- [ ] Custom Workspace Snippets
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
+pnpm install
 ```
 
 ## Development Server
@@ -22,7 +27,7 @@ pnpm install --shamefully-hoist
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+pnpm dev -o
 ```
 
 ## Production
@@ -30,13 +35,13 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+pnpm build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+pnpm preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
