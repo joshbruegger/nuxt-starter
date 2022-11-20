@@ -10,10 +10,12 @@
       class="inline-block h-4 w-4 transform rounded-full bg-white transition"
     />
   </Switch>
+  <button type="button" @click="open">Choose file</button>
 </template>
 
 <script setup>
 import { ref } from "vue";
+const { files, open, reset } = useFileDialog();
 
 const enabled = ref(false);
 </script>
