@@ -8,6 +8,10 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.0.0"
+    "nuxt": "3.0.0",
+    "nuxt-windicss": "^2.5.5"
+  },
+  "dependencies": {
+    "vite": "^3.2.4"
   }
 }
