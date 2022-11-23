@@ -1,7 +1,7 @@
 
 # Nuxt 3 Minimal Starter
 
-A starter template for Nuxt 3 with usefull modules and plugins.
+A starter template for Nuxt 3 with useful modules and plugins. Adapted from [Nuxt 3 Awesome Starter](https://github.com/viandwi24/nuxt3-awesome-starter)
 
 ## Features
 - [x] 💨 [Tailwind CSS v3](https://tailwindcss.com/) with [Windicss](https://windicss.org/)
