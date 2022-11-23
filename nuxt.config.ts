@@ -1,14 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  typescript: { shim: false },
+  typescript: { shim: false, strict: true, typeCheck: true },
   modules: [
-    "nuxt-windicss",
-    "nuxt-headlessui",
-    "@pinia/nuxt",
-    "@vueuse/nuxt",
-    "@nuxt/content",
+    'nuxt-windicss',
+    'nuxt-headlessui',
+    '@pinia/nuxt',
+    '@vueuse/nuxt',
+    '@nuxt/content',
   ],
   headlessui: {
-    prefix: "",
+    prefix: '',
   },
-});
+})

@@ -14,8 +14,9 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-const { files, open, reset } = useFileDialog();
+import { ref } from 'vue'
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const { files, open, reset } = useFileDialog()
 
-const enabled = ref(false);
+const enabled = ref(false)
 </script>
