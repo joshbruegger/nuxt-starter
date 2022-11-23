@@ -12,7 +12,7 @@ A starter template for Nuxt 3 with useful modules and plugins. Adapted from [Nux
 - [ ] 🌙 Switch Theme (light, dark, system, realtime)
 - [x] Eslint & Prettier
 - [x] Husky & Commitlint
-- [ ] Custom Workspace Snippets
+- [x] Custom Workspace Snippets
 
 ## Setup
 
