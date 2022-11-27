@@ -15,9 +15,17 @@ A starter template for Nuxt 3 with useful modules and plugins. Adapted from [Nux
 - [x] Husky & Commitlint
 - [x] Custom Workspace Snippets
 
+---
+
+> **WARNING!**
+>
+> This project using _**pnpm**_ as package manager. **Don't** use _npm_ or _yarn_!
+
+---
+
 ## Setup
 
-Make sure to install the dependencies:
+Install the dependencies:
 
 ```bash
 pnpm install
