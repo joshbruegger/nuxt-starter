@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@nuxt/content',
     '@vueuse/nuxt',
-    // '@nuxtjs/eslint-module',
     'nuxt-windicss',
     'nuxt-headlessui',
   ],
