@@ -38,10 +38,10 @@ const currentStyle = toRef(props, 'type')
         class="transition-colors duration-300"
       >
         <span class="flex justify-center items-center dark:hidden">
-          <div>Sup</div>
+          <IconUil:sun />
         </span>
         <span class="justify-center items-center hidden dark:flex">
-          <div>Sup</div>
+          <IconUil:moon />
         </span>
       </ListboxButton>
       <ListboxOptions
@@ -60,10 +60,10 @@ const currentStyle = toRef(props, 'type')
           }"
         >
           <span class="text-sm mr-2 flex items-center">
-            <div v-if="theme.key === 'light'" />
-            <div v-else-if="theme.key === 'dark'" />
-            <div v-else-if="theme.key === 'system'" />
-            <div v-else-if="theme.key === 'realtime'" />
+            <IconUil:sun v-if="theme.key === 'light'" />
+            <IconUil:moon v-else-if="theme.key === 'dark'" />
+            <IconUil:laptop v-else-if="theme.key === 'system'" />
+            <IconUil:clock v-else-if="theme.key === 'realtime'" />
           </span>
           {{ theme.text }}
         </ListboxOption>

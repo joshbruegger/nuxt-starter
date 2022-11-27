@@ -9,7 +9,8 @@ A starter template for Nuxt 3 with useful modules and plugins. Adapted from [Nux
 - [x] 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/)
 - [x] 📦 [Vue Composition Collection (Vueuse)](https://vueuse.org/)
 - [x] 📚 [Content Management System (Nuxt Content)](https://content.nuxtjs.org/) [SSR]
-- [ ] 🌙 Switch Theme (light, dark, system, realtime)
+- [x] 🔔 [Icon Pack Component (unplugin-icons)](https://icones.js.org/)
+- [x] 🌙 Switch Theme (light, dark, system, realtime)
 - [x] Eslint & Prettier
 - [x] Husky & Commitlint
 - [x] Custom Workspace Snippets
