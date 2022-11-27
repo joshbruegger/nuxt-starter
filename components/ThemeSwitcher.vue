@@ -29,18 +29,16 @@ const currentStyle = toRef(props, 'type')
       as="div"
       class="relative flex items-center"
     >
-      <ListboxLabel class="sr-only">
-        components.theme_switcher.theme
-      </ListboxLabel>
+      <ListboxLabel class="sr-only"> Change theme </ListboxLabel>
       <ListboxButton
         type="button"
-        title="components.theme_switcher.change_theme"
-        class="transition-colors duration-300"
+        title="Change theme"
+        class="transition-colors duration-300 bg-transparent"
       >
-        <span class="flex justify-center items-center dark:hidden">
+        <span class="flex justify-center items-center text-primary dark:hidden">
           <IconUil:sun />
         </span>
-        <span class="justify-center items-center hidden dark:flex">
+        <span class="justify-center items-center hidden text-white dark:flex">
           <IconUil:moon />
         </span>
       </ListboxButton>
