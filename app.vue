@@ -1,22 +1,36 @@
 <template>
-  <Switch
-    v-model="enabled"
-    :class="enabled ? 'bg-blue-600' : 'bg-gray-200'"
-    class="relative inline-flex h-6 w-11 items-center rounded-full"
+  <div
+    :class="`${theme === 'dark' ? 'dark' : ''}`"
+    class="test h-200 w-200 flex items-center justify-center"
   >
-    <span class="sr-only">Enable notifications</span>
-    <span
-      :class="enabled ? 'translate-x-6' : 'translate-x-1'"
-      class="inline-block h-4 w-4 transform rounded-full bg-white transition"
-    />
-  </Switch>
-  <button type="button" @click="open">Choose file</button>
+    <ThemeSwitcher />
+  </div>
 </template>
 
-<script setup>
-import { ref } from 'vue'
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const { files, open, reset } = useFileDialog()
+<script lang="ts" setup>
+import { ITheme } from './utils/theme'
 
-const enabled = ref(false)
+AppSetup()
+
+const theme = useState<ITheme>('theme.current')
+
+useHead({
+  title: 'My App',
+  meta: [
+    {
+      name: 'description',
+      content: 'My App',
+    },
+  ],
+})
 </script>
+
+<style>
+.test {
+  background-color: aqua;
+}
+
+.test.dark {
+  background-color: black;
+}
+</style>
