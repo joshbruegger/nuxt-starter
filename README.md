@@ -6,9 +6,10 @@ A starter template for Nuxt 3 with useful modules and plugins. Adapted from [Nux
 
 - [x] 💨 [Tailwind CSS v3](https://tailwindcss.com/) with [Windicss](https://windicss.org/)
 - [x] ✨ [Headless UI](https://headlessui.dev/)
-- [x] 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/)
-- [x] 📦 [Vue Composition Collection (Vueuse)](https://vueuse.org/)
-- [x] 📚 [Content Management System (Nuxt Content)](https://content.nuxtjs.org/) [SSR]
+- [x] 🛹 State & Store Management [(Pinia)](https://pinia.vuejs.org/)
+- [x] 📦 Vue Composition Collection [(Vueuse)](https://vueuse.org/)
+- [x] 📚 Content Management System [(Nuxt Content)](https://content.nuxtjs.org/) [SSR]
+- [x] ✍️ Markdown editor [(md-editor-v3)](https://github.com/imzbf/md-editor-v3)
 - [x] 🔔 [Icon Pack Component (unplugin-icons)](https://icones.js.org/)
 - [x] 🌙 Switch Theme (light, dark, system, realtime)
 - [x] Eslint & Prettier

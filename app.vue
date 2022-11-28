@@ -1,9 +1,10 @@
 <template>
   <div
     :class="`${theme === 'dark' ? 'dark' : ''}`"
-    class="test h-200 w-200 flex items-center justify-center"
+    class="test h-screen w-screen flex flex-col gap-10 items-center justify-center"
   >
     <ThemeSwitcher />
+    <MDEditor />
   </div>
 </template>
 
